@@ -1,3 +1,12 @@
+
+/*
+Project:   Browser-Models - ActiveRecord-lite for the browser.
+Copyright: ©2013 Alex Rothenberg
+License:   Licensed under MIT license
+           See https://raw.github.com/alexrothenberg/browser-models.js/master/LICENSE
+*/
+
+
 (function() {
   var db,
     __bind = function(fn, me){ return function(){ return fn.apply(me, arguments); }; };

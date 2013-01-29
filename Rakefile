@@ -8,10 +8,8 @@ def pipeline
 end
 
 desc "Build browser-model.js"
-task :dist do
-  puts "Building..."
+task :pkg do
   pipeline.invoke
-  puts "Done"
 end
 
 desc "Clean build artifacts from previous builds"

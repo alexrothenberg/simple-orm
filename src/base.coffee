@@ -1,3 +1,10 @@
+###
+Project:   Browser-Models - ActiveRecord-lite for the browser.
+Copyright: ©2013 Alex Rothenberg
+License:   Licensed under MIT license
+           See https://raw.github.com/alexrothenberg/browser-models.js/master/LICENSE
+###
+
 @Model ||= {}
 
 db = openDatabase('Models', '1.0', 'Models DB', 1000000)
