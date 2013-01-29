@@ -1,0 +1,27 @@
+require 'rake-pipeline-web-filters'
+
+# Set the Pipeline's output directory
+
+output "pkg"
+
+input "src" do
+  match "**/*.coffee" do
+    filter Rake::Pipeline::Web::Filters::CoffeeScriptFilter
+  end
+
+  match "**/*.js" do
+    concat "application.js"
+  end
+
+end
+
+input "test" do
+  match "**/*.coffee" do
+    filter Rake::Pipeline::Web::Filters::CoffeeScriptFilter
+  end
+
+  match "**/*.js" do
+    concat "tests.js"
+  end
+
+end
