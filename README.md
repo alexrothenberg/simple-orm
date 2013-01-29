@@ -2,8 +2,8 @@
 
 ActiveRecord is an awesome pattern to let you work with objects and avoid writing SQL even when 
 storing data in a relational database.  This library lets you work with the browser's 
-(Web SQL API)[http://docs.phonegap.com/en/1.2.0/phonegap_storage_storage.md.html] 
-(not officially a part of HTML5 (anymore)[http://dev.w3.org/html5/webdatabase/])
+[Web SQL API](http://docs.phonegap.com/en/1.2.0/phonegap_storage_storage.md.html) 
+(not officially a part of HTML5 [anymore](http://dev.w3.org/html5/webdatabase/) but in browsers)
 
 ## Examples ##
 
@@ -70,7 +70,7 @@ Please do!
 
 Create an [issue](https://github.com/alexrothenberg/simple-orm/issues), 
 submit a pull request
-or just let me know what you think (@alexrothenberg)[http://www.twitter.com/alexrothenberg]
+or just let me know what you think [@alexrothenberg](http://www.twitter.com/alexrothenberg)
 
 ## Legal ##
 
