@@ -1,8 +1,8 @@
 ###
-Project:   Browser-Models - ActiveRecord-lite for the browser.
+Project:   Simple-ORM - ActiveRecord-lite for the browser.
 Copyright: ©2013 Alex Rothenberg
 License:   Licensed under MIT license
-           See https://raw.github.com/alexrothenberg/browser-models.js/master/LICENSE
+           See https://github.com/alexrothenberg/simple-orm#legal
 ###
 
 @Model ||= {}
