@@ -45,7 +45,7 @@ describe 'Model.Base', ->
         failCallback.should.not.have.been.called
 
       it 'should invoke callback after failure', ->
-        sinon.spy(App, 'debug_log')
+        sinon.spy(console, 'log')
         sinon.spy(failingTransaction, 'executeSql')
         Article.connection = stubConnection(failingTransaction)
         successCallback = sinon.spy()

@@ -1,14 +1,40 @@
 GEM
   remote: http://rubygems.org/
   specs:
+    childprocess (0.3.7)
+      ffi (~> 1.0, >= 1.0.6)
+    coderay (1.0.8)
     coffee-script (2.2.0)
       coffee-script-source
       execjs
     coffee-script-source (1.4.0)
+    diff-lcs (1.1.3)
     execjs (1.4.0)
       multi_json (~> 1.0)
+    ffi (1.3.1)
+    guard (1.5.4)
+      listen (>= 0.4.2)
+      lumberjack (>= 1.0.2)
+      pry (>= 0.9.10)
+      thor (>= 0.14.6)
+    guard-coffeescript (1.2.1)
+      coffee-script (>= 2.2.0)
+      guard (>= 1.1.0)
+    jasmine (1.3.1)
+      jasmine-core (~> 1.3.1)
+      rack (~> 1.0)
+      rspec (>= 1.3.1)
+      selenium-webdriver (>= 0.1.3)
+    jasmine-core (1.3.1)
     json (1.7.6)
+    listen (0.6.0)
+    lumberjack (1.0.2)
+    method_source (0.8.1)
     multi_json (1.5.0)
+    pry (0.9.10)
+      coderay (~> 1.0.5)
+      method_source (~> 0.8)
+      slop (~> 3.3.1)
     rack (1.5.0)
     rake (0.9.6)
     rake-pipeline (0.7.0)
@@ -18,16 +44,36 @@ GEM
     rake-pipeline-web-filters (0.7.0)
       rack
       rake-pipeline (~> 0.6)
+    rb-fsevent (0.9.1)
+    rspec (2.12.0)
+      rspec-core (~> 2.12.0)
+      rspec-expectations (~> 2.12.0)
+      rspec-mocks (~> 2.12.0)
+    rspec-core (2.12.2)
+    rspec-expectations (2.12.1)
+      diff-lcs (~> 1.1.3)
+    rspec-mocks (2.12.2)
+    rubyzip (0.9.9)
+    selenium-webdriver (2.29.0)
+      childprocess (>= 0.2.5)
+      multi_json (~> 1.0)
+      rubyzip
+      websocket (~> 1.0.4)
+    slop (3.3.3)
     thor (0.17.0)
     uglifier (1.3.0)
       execjs (>= 0.3.0)
       multi_json (~> 1.0, >= 1.0.2)
+    websocket (1.0.7)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
   coffee-script
+  guard-coffeescript
+  jasmine
   rake-pipeline
   rake-pipeline-web-filters
+  rb-fsevent (~> 0.9.1)
   uglifier
