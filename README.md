@@ -5,6 +5,10 @@ storing data in a relational database.  This library lets you work with the brow
 [Web SQL API](http://docs.phonegap.com/en/1.2.0/phonegap_storage_storage.md.html) 
 (not officially a part of HTML5 [anymore](http://dev.w3.org/html5/webdatabase/) but in browsers)
 
+## Download
+
+[simple-orm.js](https://raw.github.com/alexrothenberg/simple-orm/master/pkg/simple-orm.js)
+
 ## Examples ##
 
 ### Defining your `model` object
